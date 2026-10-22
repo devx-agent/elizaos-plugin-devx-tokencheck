@@ -1,5 +1,7 @@
 # elizaos-plugin-devx-tokencheck
 
+[![npm](https://img.shields.io/npm/v/elizaos-plugin-devx-tokencheck)](https://www.npmjs.com/package/elizaos-plugin-devx-tokencheck) [![license](https://img.shields.io/npm/l/elizaos-plugin-devx-tokencheck)](LICENSE)
+
 An ElizaOS plugin that checks a token for rug-pull or honeypot risk **before your agent buys it**. It adds:
 
 - **`CHECK_TOKEN` action:** "is 0x… safe?", "rug check 0x… on arbitrum". It returns `safe` / `caution` / `danger` with reasons.
@@ -35,12 +37,12 @@ Known gaps:
 
 ## Install
 
-The package is not on npm yet. Install it from GitHub; the `prepare` script builds it:
-
 ```bash
-bun add github:devx-agent/elizaos-plugin-devx-tokencheck
-# or: npm install github:devx-agent/elizaos-plugin-devx-tokencheck
+bun add elizaos-plugin-devx-tokencheck
+# or: npm install elizaos-plugin-devx-tokencheck
 ```
+
+npm: https://www.npmjs.com/package/elizaos-plugin-devx-tokencheck. To get the latest unreleased code, use `bun add github:devx-agent/elizaos-plugin-devx-tokencheck`.
 
 ## Use
 
