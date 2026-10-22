@@ -1,6 +1,6 @@
 {
   "name": "elizaos-plugin-devx-tokencheck",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ElizaOS plugin: DevX Token Check rug/honeypot verdict (safe/caution/danger) before swaps on Base, Ethereum, Arbitrum, Optimism, Polygon, Robinhood Chain and Solana. $0.01 USDC per check via x402 from the agent wallet; free demo tokens. By Made by DevX.",
   "type": "module",
   "main": "dist/index.cjs",
